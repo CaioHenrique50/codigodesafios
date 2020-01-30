@@ -1,0 +1,13 @@
+<script type="text/javascript">
+	var nome = prompt('insira texto aqui');
+	var palavra = nome.split('');
+	var i;
+	var teste = palavra.length;
+	var consoante = 0;
+	for(i = 0 ; teste > i ; i++){
+		if(palavra[i] != 'a' && palavra[i] != 'e' &&  palavra[i] != 'i' && palavra[i] != 'o' && palavra[i] != 'u'){
+			consoante +=1
+		}
+	}
+	alert(consoante );
+</script>

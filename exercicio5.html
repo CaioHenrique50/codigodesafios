@@ -1,0 +1,25 @@
+<script type="text/javascript">
+	var nome = prompt('insira texto aqui');
+	var palavra = nome.split('');
+	var i;
+	var teste = palavra.length;
+	var vogal = 0;
+	for(i = 0 ; teste > i ; i++){
+		if(palavra[i] == 'a'){
+			vogal +=1
+		}
+		if(palavra[i] == 'e'){
+			vogal +=1
+		}
+		if(palavra[i] == 'i'){
+			vogal +=1
+		}
+		if(palavra[i] == 'o'){
+			vogal +=1
+		}
+		if(palavra[i] == 'u'){
+			vogal +=1
+		}
+	}
+	alert(vogal);
+</script>
